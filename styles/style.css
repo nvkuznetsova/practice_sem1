@@ -1,0 +1,322 @@
+body {
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  color: #fff;
+}
+
+.main-header {
+  position: relative;
+  padding-top: 40px;
+  background: url("../img/main-back.jpg"), no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+
+  min-height: 700px;
+}
+
+.menu ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.menu a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  color: #ffd700;
+}
+
+.menu a:last-child {
+  padding-right: 0;
+}
+
+#menu-main {
+  width: 32px;
+  height: 32px;
+  display: block;
+  font-size: 0;
+  background: url("../img/logo-sprite.png");
+  background-position: -236px 0;
+}
+
+#menu-main:hover {
+  background: url("../img/logo-sprite.png");
+  background-position: -236px -59px;
+}
+
+.floating {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 10;
+}
+
+.floating li {
+  width: 15%;
+}
+
+.promo {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
+
+.promo button {
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#large-promo{
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.section {
+  padding: 100px 0 150px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #ffd700;
+}
+
+#extra-info {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#courses {
+  background: url("../img/background-courses.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.course {
+  position: relative;
+  margin: 0 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+  background: #fff;
+  color: #000;
+
+  max-width: 350px;
+  min-height: 370px;
+}
+
+.course:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.course-title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.course-more {
+  width: 200px;
+  position: absolute;
+  left: 75px;
+  bottom: 10px;
+  font-size: 24px;
+}
+
+.slider img {
+  height: 340px;
+}
+
+#more-photo {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#review {
+  background: url("../img/background-review.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.review {
+  min-width: 300px;
+  max-width: 540px;
+  margin: 0 15px 40px;
+  padding: 15px;
+  background: #fff;
+  color: #000;
+}
+
+.review-author {
+  float: left;
+}
+
+.review-text {
+  float: right;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.review-author img {
+  width: 130px;
+  height: 130px;
+}
+
+.review-author p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+#contacts {
+  border-top: 2px solid #fff;
+  background: url("../img/background-contacts.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+}
+
+#contacts .col-md-6 {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.right {
+  text-align: right;
+}
+
+.social-icons ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.social-icons li:last-child {
+  padding-right: 0;
+}
+
+.social-icons a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  font-size: 0;
+}
+
+.social {
+  background: url("../img/logo-sprite.png");
+}
+
+.vk-icon {
+  background-position: -118px 0;
+}
+
+.fb-icon {
+  background-position: 0 0;
+}
+
+.youtube-icon {
+  background-position: -177px 0;
+}
+
+.instagram-icon {
+  background-position: -59px 0;
+}
+
+.vk-icon:hover {
+  background-position: -118px -59px;
+}
+
+.fb-icon:hover {
+  background-position: 0 -59px;
+}
+
+.youtube-icon:hover {
+  background-position: -177px -59px;
+}
+
+.instagram-icon:hover {
+  background-position: -59px -59px;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  color: #C0C0C0;
+}
+/* Стили большой галереи */
+.gallery {display: none;}
+.gallery:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.first {display: block;}
+.align-center {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.align-center:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fff;
+}
+
+ .gallery a {
+  float: left;
+  width: 25%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+}
+
+.gallery a:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
