@@ -125,9 +125,8 @@ body {
   min-height: 370px;
 }
 
-@media (min-width: 768px)
-.course {
-    max-width: 100%;
+@media screen and (max-width: 768px) {
+.course {max-width: 100%;}
 }
 
 .course:last-child {
@@ -142,9 +141,9 @@ body {
 }
 
 .course-more {
-  width: 200px;
+  width: 50%;
   position: absolute;
-  left: 75px;
+  left: 25%;
   bottom: 10px;
   font-size: 24px;
 }
