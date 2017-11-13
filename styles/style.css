@@ -163,9 +163,8 @@ body {
 }
 
 .review {
-  min-width: 300px;
   max-width: 540px;
-  margin: 0 15px 40px;
+  margin: 0 15px 40px 0;
   padding: 15px;
   background: #fff;
   color: #000;
@@ -193,8 +192,13 @@ body {
   line-height: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+.review {max-width: 48%;}
+}
+
 @media screen and (max-width: 768px) {
 .course {max-width: 100%;}
+.review {max-width: 100%;}
 .review-text{text-align: center;}
 }
 
