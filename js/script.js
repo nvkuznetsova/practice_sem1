@@ -2,13 +2,10 @@ $(document).ready(function(){
   var posTop = $('.menu').offset().top;
         $(window).scroll(function(){
                 var top = $(document).scrollTop();
-                if (top > posTop) {
+                var w = $(window).width();
+                if ((top > posTop) && (w >= 1200)) {
                         $('.menu').addClass('floating');
-                        $('.menu').removeClass('col-md-7');
-                        $('.menu').removeClass('offset-md-2');
                 } else {
-                        $('.menu').addClass('offset-md-2');
-                        $('.menu').addClass('col-md-7');
                         $('.menu').removeClass('floating');
                 }
         });
