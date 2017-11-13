@@ -113,10 +113,6 @@ body {
   background-attachment: fixed;
 }
 
-.col-md-4 {
-  width: 32.33%;
-}
-
 .course {
   position: relative;
   margin-right: 15px;
@@ -125,7 +121,13 @@ body {
   background: #fff;
   color: #000;
 
+  max-width: 350px;
   min-height: 370px;
+}
+
+@media (min-width: 768px)
+.course {
+    max-width: 100%;
 }
 
 .course:last-child {
