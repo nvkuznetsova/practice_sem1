@@ -113,22 +113,23 @@ body {
   background-attachment: fixed;
 }
 
+.col-md-4 {
+  width: 32.33%;
+}
+
 .course {
   position: relative;
-  margin: 0 15px;
+  margin-right: 15px;
   margin-bottom: 10px;
   padding: 15px;
   background: #fff;
   color: #000;
 
-  max-width: 350px;
   min-height: 370px;
 }
 
-.course:after {
-  content: "";
-  clear: both;
-  display: block;
+.course:last-child {
+  margin-right: 0;
 }
 
 .course-title {
@@ -175,6 +176,7 @@ body {
 
 .review-author {
   float: left;
+  text-align: center;
 }
 
 .review-text {
@@ -192,7 +194,6 @@ body {
 .review-author p {
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
 }
 
 .title {
