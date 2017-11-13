@@ -125,10 +125,6 @@ body {
   min-height: 370px;
 }
 
-@media screen and (max-width: 768px) {
-.course {max-width: 100%;}
-}
-
 .course:last-child {
   margin-right: 0;
 }
@@ -184,7 +180,7 @@ body {
   float: right;
   font-size: 18px;
   line-height: 30px;
-  text-align: justify;
+  text-align: left;
 }
 
 .review-author img {
@@ -195,6 +191,11 @@ body {
 .review-author p {
   font-size: 18px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+.course {max-width: 100%;}
+.review-text{text-align: center;}
 }
 
 .title {
