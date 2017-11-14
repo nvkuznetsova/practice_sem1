@@ -194,7 +194,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-.course {max-width: 100%;}
+.course {max-width: 100%; min-height: 370px;}
 .review {max-width: 100%;}
 .review-text{text-align: center;}
 .navbar-brand img {width: 130px; height: 65px;}
