@@ -11,7 +11,7 @@ body {
   padding-top: 40px;
   background: url("../img/main-back.jpg"), no-repeat;
   background-size: cover;
-  background-position: center 100%;
+  background-position: center center;
 
   min-height: 700px;
 }
@@ -68,6 +68,7 @@ body {
 .promo {
   position: absolute;
   top: 50%;
+  left: 0;
   text-align: center;
 }
 
@@ -116,8 +117,8 @@ body {
   background: #fff;
   color: #000;
 
-  max-width: 350px;
-  min-height: 370px;
+  max-width: 370px;
+  min-height: 400px;
 }
 
 .course:last-child {
@@ -189,12 +190,15 @@ body {
 
 @media screen and (max-width: 1200px) {
 .review {max-width: 48%;}
+.course {max-width: 32%;}
 }
 
 @media screen and (max-width: 768px) {
 .course {max-width: 100%;}
 .review {max-width: 100%;}
 .review-text{text-align: center;}
+.navbar-brand img {width: 130px; height: 65px;}
+body{font-size: 20px;}
 }
 
 .title {
