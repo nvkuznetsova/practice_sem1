@@ -1,4 +1,4 @@
-﻿body {
+body {
   background: rgba(0, 0, 0, 0.9);
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
@@ -111,18 +111,10 @@
 
 .course {
   position: relative;
-  margin-right: 15px;
-  margin-bottom: 10px;
   padding: 15px;
   background: #fff;
   color: #000;
-
-  max-width: 370px;
-  min-height: 400px;
-}
-
-.course:last-child {
-  margin-right: 0;
+  min-height: 450px;
 }
 
 .course-title {
@@ -158,9 +150,12 @@
   background-attachment: fixed;
 }
 
+.col-12, .col-lg-6 {
+  margin-bottom: 10px;
+}
+
 .review {
-  max-width: 555px;
-  margin: 0 15px 40px 0;
+  height: 100%;
   padding: 15px;
   background: #fff;
   color: #000;
@@ -189,13 +184,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-.review {max-width: 48%;}
-.course {max-width: 32%; min-height: 470px;}
+.course {min-height: 500px;}
 }
 
 @media screen and (max-width: 992px) {
-.course {max-width: 100%; min-height: 370px;}
-.review {max-width: 100%;}
+.course {margin-bottom: 10px; min-height: 450px;}
 .review-text{text-align: center;}
 .navbar-brand img {width: 130px; height: 65px;}
 body{font-size: 20px;}
