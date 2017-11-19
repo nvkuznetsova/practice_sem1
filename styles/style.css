@@ -80,9 +80,9 @@ body {
 
 #large-promo{
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 1.7em;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 1.5em;
   text-transform: uppercase;
 }
 
@@ -92,9 +92,9 @@ body {
 
 .section-title {
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 1.6em;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 1.5em;
   color: #ffd700;
 }
 
@@ -118,9 +118,9 @@ body {
 }
 
 .course-title {
-  font-size: 36px;
+  font-size: 1.5em;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 1.5em;
   text-transform: uppercase;
 }
 
@@ -279,6 +279,7 @@ body{font-size: 20px;}
   text-align: center;
   color: #C0C0C0;
 }
+
 /* Стили большой галереи */
 .gallery {display: none;}
 .gallery:after {
