@@ -155,10 +155,15 @@ body {
 }
 
 .review {
-  height: 100%;
   padding: 15px;
   background: #fff;
   color: #000;
+}
+
+.review:after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .review-author {
