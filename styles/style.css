@@ -1,8 +1,11 @@
+﻿html{
+  font-size: 24px;
+  line-height: 30px;
+}
+
 body {
   background: rgba(0, 0, 0, 0.9);
-  font-size: 24px;
   font-family: 'Roboto', sans-serif;
-  line-height: 30px;
   color: #fff;
 }
 
@@ -23,11 +26,19 @@ body {
 .menu li {
   display: inline-block;
   width: 100%;
+  padding: 0 20px;
   vertical-align: middle;
 }
 
+.menu li:last-child {
+  padding-right: 0;
+}
+
+.menu li:first-child {
+  padding-left: 0;
+}
+
 .menu a {
-  padding: 0 20px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -35,10 +46,6 @@ body {
 
 .menu a:hover {
   color: #ffd700;
-}
-
-.menu a:last-child {
-  padding-right: 0;
 }
 
 #menu-main {
@@ -56,7 +63,6 @@ body {
 }
 
 .floating {
-  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -80,9 +86,9 @@ body {
 
 #large-promo{
   margin-bottom: 0;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 2rem;
   text-transform: uppercase;
 }
 
@@ -92,9 +98,9 @@ body {
 
 .section-title {
   margin-bottom: 30px;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 2rem;
   color: #ffd700;
 }
 
@@ -118,9 +124,9 @@ body {
 }
 
 .course-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 2rem;
   text-transform: uppercase;
 }
 
@@ -129,7 +135,7 @@ body {
   position: absolute;
   left: 25%;
   bottom: 10px;
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 .slider img {
@@ -139,7 +145,7 @@ body {
 #more-photo {
   width: 100%;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 1rem;
   text-align: center;
   border-radius: 50px;
 }
@@ -196,7 +202,7 @@ body {
 .course {margin-bottom: 10px; min-height: 450px;}
 .review-text{text-align: center;}
 .navbar-brand img {width: 130px; height: 65px;}
-body{font-size: 20px;}
+html {font-size: 20px;}
 }
 
 .title {
