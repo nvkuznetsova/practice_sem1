@@ -1,1 +1,1 @@
-# nvkuznetsova.github.io
+# practice_sem1
